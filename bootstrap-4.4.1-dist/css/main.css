@@ -1,0 +1,505 @@
+body{
+    padding-top: 70px;
+}
+.top
+{
+    width: 10%;
+    height: 20%;
+    background-color: blue;
+}
+.navbar{
+    border: 0.1px solid black;
+}
+.navbar-nav > li {
+    padding-left: 20px;
+}
+
+.navbar-nav > li > #home{
+    border-radius: 35px;
+    padding: 7.5px 15.5px;
+    background-color:blueviolet;
+    font-weight: 600;
+    color: white !important;
+}
+
+.navbar-nav > li.nav-itemactive > a,
+.navbar-nav > li:hover > a{
+    border-radius: 35px;
+    padding: 7.5px 15.5px;
+    background-color:blueviolet;
+    font-weight: 600;
+    color: white !important;
+}
+img{
+    width: 80%;
+    height: 80%;
+    
+}
+marquee{
+    background-color: blue ;
+
+}
+marquee > p{
+    color: white!important;
+    font-weight: 400 !important;
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+    padding: 0%;
+    font-weight: 600;
+}
+span{
+    color: green;
+    padding: 0%;
+}
+img.intro{
+
+    width: 40px !important;
+    height: 40px!important;
+    align-content: center;
+   
+ 
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 100px;
+  
+}
+.fact1{
+display: inline-block;
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+vertical-align: middle;
+text-align: center;
+
+
+
+}
+.fact1 > .fact1img{
+
+    height: 40px;
+    width: 40px;
+  
+
+    
+}
+.fact1 > h2{
+    font-size: 3rem;
+    color: white;
+    font-weight: 500!important;
+}
+
+.fact2{
+ display: inline-block;
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+vertical-align: middle;
+text-align: center;
+
+
+
+   
+}
+.fact2 > .fact2img{
+
+    height: 40px;
+    width: 40px;
+   
+}
+.fact2 > h2{
+    font-size: 3rem;
+    
+   color: white;
+    font-weight: 500!important;
+}
+
+.fact3{
+    display: inline-block;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+
+
+   
+}
+.fact3 > .fact3img{
+
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+.fact3 > h2{
+    font-size: 3rem;
+    color: white;
+    font-weight: 500!important;
+}
+
+.fact4{
+display: inline-block;
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+
+
+   
+}
+.fact4 > .fact4img{
+
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    align-content: center;
+}
+.fact4 > h2{
+    font-size: 3rem;
+  
+    color: white;
+    font-weight: 500!important;
+}
+.sec2{
+   background-color:#f7f8fa;
+   align-content: center;
+ 
+
+}
+.section-contents{
+    width: 100%;
+}
+.row1{
+
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+   
+    width: 100%;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding: 10px 0px 5px 0px;
+
+  
+  
+    
+
+}
+.service1{
+    
+    padding-left: 20px;
+    padding-top: 20px;
+        background-color: white;
+        height: 150px;
+        width: 300px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        border: 1px solid grey;
+
+        box-shadow: 5px 10px;
+
+}
+.service1 > .service1img{
+
+    height: 40px;
+    width: 40px;
+   
+}
+
+.service2{
+    
+    padding-left: 20px;
+    padding-top: 20px;
+        background-color: white;
+        height: 150px;
+        width: 300px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        border: 1px solid grey;
+
+        box-shadow: 5px 10px;
+    
+}
+.service2 > .service2img{
+
+    height: 40px;
+    width: 40px;
+   
+}
+
+.service3{
+    
+    padding-left: 20px;
+    padding-top: 20px;
+        background-color: white;
+        height: 150px;
+        width: 300px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        border: 1px solid grey;
+
+        box-shadow: 5px 10px;
+}
+.service3 > .service3img{
+
+    height: 40px;
+    width: 40px;
+   
+}
+  h4{
+    text-align: center;
+    color: blueviolet;
+    padding: 0%;
+    font-weight: 600;
+}
+
+
+        .row2{
+        
+     
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-content: center;
+         
+            width: 100%;
+            flex-wrap: wrap;
+            background-size: cover;
+            padding: 10px 0px 45px 10px;
+            
+        
+        }
+.service4{
+    
+    padding-left: 20px;
+    padding-top: 20px;
+        background-color: white;
+        height: 150px;
+        width: 300px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        border: 1px solid grey;
+
+        box-shadow: 5px 10px;
+    
+    }
+        .service4 > .service4img{
+        
+        height: 40px;
+        width: 40px;
+        }
+
+.service5{
+    
+    padding-left: 20px;
+    padding-top: 20px;
+        background-color: white;
+        height: 150px;
+        width: 300px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        border: 1px solid grey;
+
+        box-shadow: 5px 10px;
+    
+}
+.service5 > .service5img{
+
+    height: 40px;
+    width: 40px;
+   
+}
+
+.service6{
+    
+    padding-left: 20px;
+    padding-top: 20px;
+        background-color: white;
+        height: 150px;
+        width: 300px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        border: 1px solid grey;
+
+        box-shadow: 5px 10px;
+    
+}
+.service6 > .service6img{
+
+    height: 40px;
+    width: 40px;
+   
+}
+
+.row3{
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+   
+    width: 50%;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding: 10px 0px 5px 0px;
+
+ 
+  
+}
+.row4{
+        
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+ 
+    width: 50%;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 10px 0px 10px 0px;
+ 
+        
+
+    
+
+}
+
+.mission1{
+     
+  
+        background-color:#f7f8fa;
+        height: 80px;
+        width: 250px;
+       
+      align-content: center;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+       
+        
+
+}
+.mission2{
+     
+  
+   
+    background-color:#f7f8fa;
+    height: 80px;
+    width: 250px;
+
+    align-content: center;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+   
+}
+.mission3{
+     
+  
+  
+    background-color:#f7f8fa;
+
+    height: 80px;
+        width: 250px;
+    align-content: center;
+  
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+  
+  
+
+}
+.mission4{
+     
+  
+
+    background-color:#f7f8fa;
+    height: 80px;
+    width: 250px;
+    
+    align-content: center;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+   
+  
+
+}
+ .mission1img {
+    height: 40px;
+    width: 40px;
+}
+.mission2img {
+    height: 40px;
+    width: 40px;
+}
+.mission3img {
+    height: 40px;
+    width: 40px;
+}
+.mission4img {
+    height: 40px;
+    width: 40px;
+}
+h3{
+    color: blueviolet;
+    font-weight: 500;
+   
+    
+    font-style: oblique;
+}
+.check{
+    width: 100%;
+    align-content: center;
+    display: inline-block;
+   
+
+}
+.events{
+  
+    display: flex;
+    display: inline-block;
+    width: 40%;
+    align-content: center;
+    
+}
+.movingmarquee{
+
+    background-color: white;
+}
+
+.row5{
+    width: 100%;
+    display: inline-block;
+    padding-left: 25%;
+    padding-top: none;
+    padding-bottom:5%;
+}
+.row5 > div{
+    display: inline-block;
+    width: 25%;
+}
+.socialicons > li{
+    display: inline-block;
+   
+}
